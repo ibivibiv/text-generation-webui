@@ -427,7 +427,7 @@ def update_requirements(initial_installation=False, pull=True):
 
 
 def launch_webui():
-    run_cmd(f"python server.py {flags}", environment=True)
+    run_cmd(f"python server.py --trust-remote-code {flags}", environment=True)
 
 
 if __name__ == "__main__":
