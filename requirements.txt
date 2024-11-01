@@ -26,6 +26,7 @@ tqdm
 wandb
 mamba-ssm 
 causal-conv1d
+compressed-tensors
 
 # API
 SpeechRecognition==3.10.0
